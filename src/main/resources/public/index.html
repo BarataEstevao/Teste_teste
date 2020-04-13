@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org"
+ xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
-<h1>Hello Yose</h1>
-<p th:text="${message}"></p>
-<a href="readme.html" id="link">readme</a><BR>
-<a href="readme.html" id="YoseTheGame" id="">readme</a><BR>
-<a href="lea-me.html" id="repository-link" >readme</a><BR>
-<a href="contactme.html" id="contact-me-link">Contact Me</a>
 
+       <div>
+         <h1><p th:text="${message}"></p></h1>
+         <a href="/astroport" id="astroport-name">astropot</a>
+         <li><a href="https://web.facebook.com/barroso.balotel?ref=bookmarks" id="contact-me-link">Contact Me</a></li>
+         <li><a href="https://bbarata.herokuapp.com/ping" id="ping-challenge-link"> implementacao </a></li>
+         <li><a id="repository-link" href="https://github.com/BarataEstevao/LES_2020">repository</a></li>
+       </div>
 </body>
 </html>
